@@ -1,0 +1,17 @@
+.canvas1{
+  width: 100%;
+  height: 500rpx
+}
+
+.canvas2{
+  width: 100%;
+  height: 500rpx
+}
+
+#chart2{
+  top: 100rpx
+}
+
+#chart3{
+  top: 20px
+}

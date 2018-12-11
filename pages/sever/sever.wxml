@@ -1,0 +1,8 @@
+<text class="title">{{title1}}</text>
+<text class="title">{{title2}}</text>
+<view class="contianter">
+    <text class="btn">{{motto1}}</text>
+</view>
+<view>   
+ <text class="btn1">{{motto5}}</text>
+ </view>

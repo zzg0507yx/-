@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" />
+      </swiper-item>
+    </block>
+</swiper>
+<view>
+<text class="word">GAME TIME！！！</text>
+</view>
+<view class="jishi">
+<text class="content_time">{{time}}S</text>
+ <image class="icon" src="/images/play.png" bindtap="startTap"></image>
+ <image class="icon" src="/images/timeout.png" bindtap="stopTap"></image>
+ <image class="icon" src="/images/reloadtime.png" bindtap="restartTap"></image>
+ </view>
+<view>
+  <button class="btn1" bindtap="jumpToMapPage">发现烫手之地</button>
+  <button class="btn2" bindtap="getDataFromOneNet">发现我的烫手数据</button>
+</view>

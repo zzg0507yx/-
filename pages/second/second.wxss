@@ -1,0 +1,60 @@
+page{
+ height: 100%;
+}
+.btn1{
+  margin-top: 30rpx ;
+  width:50%;
+  border: 1px solid  #d9d919; 
+  border-radius:100px;
+  background-color:#000000;
+  color:#d9d919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  }
+.btn1::after{
+  border-radius:100px;
+}
+.pic1{
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+}
+.pic2{
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+}
+title{
+  color:#d9d919;
+  font-size:50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.words{
+  color:#000000;
+  font-size:43rpx;
+}
+.number1{
+  font-size:80rpx;
+  color:#c52525;
+}
+.number2{
+  font-size:80rpx;
+  color:#2929cf;
+}
+.number3{
+  font-size:80rpx;
+  color:#28c228;
+}
+.number4{
+  font-size:80rpx;
+  color:#dada1c;
+}
+.icon{
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+}

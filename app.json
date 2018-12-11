@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/enter/enter",
+    "pages/zhuce/zhuce",
+    "pages/logs/logs",
+    "pages/set/set",
+    "pages/sever/sever",
+    "pages/welcome/welcome",
+    "pages/main/main",
+    "pages/map/map",
+    "pages/chart/chart",
+    "pages/second/second"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#d9d919",
+    "navigationBarTitleText":"一起来烫吧",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+ "tabBar": {
+  "color": "#000000",
+  "selectedColor":"#d9d919",
+  "backgroundColor":"#ffffff",
+  "borderStyle": "black",
+  "list": [
+    {
+            "selectedIconPath": "images/userfull.png",
+            "iconPath": "images/user.png",
+            "pagePath": "pages/welcome/welcome",
+            "text": "用户"
+    },
+    {
+      "selectedIconPath": "images/homefull.png",
+      "iconPath": "images/home.png",
+      "pagePath": "pages/main/main",
+      "text": "首页"
+    },
+    {
+      "selectedIconPath": "images/happyfull.png",
+      "iconPath": "images/happy.png",
+      "pagePath": "pages/second/second",
+      "text": "烫手时刻"
+    },
+        {
+          "selectedIconPath": "images/setfull.png",
+          "iconPath": "images/set.png",
+          "pagePath": "pages/set/set",
+          "text": "设置"
+        }
+
+  ]
+ }
+}
+

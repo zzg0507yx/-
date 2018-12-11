@@ -1,0 +1,5 @@
+<!--去除原WiFi气象站湿度图表-->
+<canvas class = "canvas1" id="chart2"
+canvas-id="light"></canvas>
+<canvas class = "canvas2" id="chart3"
+canvas-id="tempe"></canvas>

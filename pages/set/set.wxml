@@ -1,0 +1,28 @@
+  <view class="container">
+    <view class="login-from">
+          <view class="line"></view>
+
+      <!--用户名-->
+      <view class="inputView"bindtap="jumpToSeverPage">
+        <image class="kefuImage" src="/images/server.png"></image>
+        <label class="loginLab">联系客服</label>
+      </view>
+      <view class="line"></view>
+              <!--设置密码-->
+    <view class="inputView" bindtap="jumpToZhucePage">
+      <image class="keyImage" src="/images/secret.png"></image>
+      <label class="loginLab">更改密码/用户名</label>
+    </view>
+          <view class="line"></view>
+    <view class="inputView" bindtap="jumpToAnnouncePage">
+      <image class="announceImage" src="/images/announce.png"></image>
+      <label class="loginLab">说明</label>
+    </view>
+          <view class="line"></view>
+          <view class="inputView" bindtap="jumpToEnterPage">
+      <image class="deleteImage" src="/images/delete.png"></image>
+      <label class="loginLab">删除并退出</label>
+    </view>
+          <view class="line"></view>
+    </view>
+  </view>

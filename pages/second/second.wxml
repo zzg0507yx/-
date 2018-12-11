@@ -1,0 +1,40 @@
+<view>
+<button class="btn1" bindtap="chooseimage">上传我的烫手瞬间</button>
+<image src="{{tempFilePaths[0] }}" mode="aspecFill" class="pic1" style="width: 50%; height: 225rpx"/>
+<image src="{{tempFilePaths[1] }}" mode="aspecFill" class="pic1" style="width: 50%; height: 225rpx"/>
+<image src="{{tempFilePaths[2] }}" mode="aspecFill" class="pic2" style="width: 50%; height: 225rpx"/>
+<image src="{{tempFilePaths[3] }}" mode="aspecFill" class="pic2" style="width: 50%; height: 225rpx"/>
+<view><title class="title">{{title}}</title></view>
+<view>
+<text class="words">  当前玩家一的分数是：</text>
+<text class="number1">{{number1}}</text>
+<image src="/images/jia.png" class="icon" bindtap="jiashu1"></image>
+<image src="/images/jian.png" class="icon" bindtap="jianshu1"></image>
+<image src="/images/chongzhi.png" class="icon" bindtap="chongzhi1"></image>
+</view>
+
+<view>
+<text class="words">  当前玩家二的分数是：</text>
+<text class="number2">{{number2}}</text>
+<image src="/images/jia.png" class="icon" bindtap="jiashu2"></image>
+<image src="/images/jian.png" class="icon" bindtap="jianshu2"></image>
+<image src="/images/chongzhi.png" class="icon" bindtap="chongzhi2"></image>
+</view>
+
+<view>
+<text class="words">  当前玩家三的分数是：</text>
+<text class="number3">{{number3}}</text>
+<image src="/images/jia.png" class="icon" bindtap="jiashu3"></image>
+<image src="/images/jian.png" class="icon" bindtap="jianshu3"></image>
+<image src="/images/chongzhi.png" class="icon" bindtap="chongzhi3"></image>
+</view>
+
+<view>
+<text class="words">  当前玩家四的分数是：</text>
+<text class="number4">{{number4}}</text>
+<image src="/images/jia.png" class="icon" bindtap="jiashu4"></image>
+<image src="/images/jian.png" class="icon" bindtap="jianshu4"></image>
+<image src="/images/chongzhi.png" class="icon" bindtap="chongzhi4"></image>
+</view>
+
+</view>
